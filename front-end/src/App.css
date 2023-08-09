@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.UsrInputs{
+  margin:4vh 2vw 0 2vw;
+  display:flex; 
+  flex-direction: column;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding:20px;
+}
+input[type='text'] {
+  width: 90%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  min-height: 20vh;
+}
+
+.UsrInputs h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.UsrInputs label{
+  font-size:18px;
+  margin-right:10px;
+}
+.saySomething {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.usrButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  text-align:center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
